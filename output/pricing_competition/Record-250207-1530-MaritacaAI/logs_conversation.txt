@@ -1,0 +1,40 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+
+        [Phase 2] Firm Gill: 
+        Firm Gill: 7
+        
+
+        [Phase 2] Firm Ed: 
+        Firm Ed: 7
+        
+
+        [Results] Firm Gill: 
+        price 7.0 with profit 3500
+        
+
+        [Results] Firm Ed: 
+        price 7.0 with profit 3500
+        
+
+========= Round 2 =========
+
+        [Phase 2] Firm Gill: 
+        Firm Gill: 7
+        
+
+        [Phase 2] Firm Ed: 
+        Firm Ed: 7
+        
+
+        [Results] Firm Gill: 
+        price 7.0 with profit 3500
+        
+
+        [Results] Firm Ed: 
+        price 7.0 with profit 3500
+        
+

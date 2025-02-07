@@ -88,7 +88,7 @@ firm_persona_1 = '1' # Firm 1 persona (0: None, 1: Active, 2: Aggressive)
 firm_persona_2 = '1' # Firm 2 persona (0: None, 1: Active, 2: Aggressive)
 
 # Prompt
-Data = Data_br_enh
+Data = Data_br
 
 prompts = Data.prompts
 persona_prompts = Data.persona
