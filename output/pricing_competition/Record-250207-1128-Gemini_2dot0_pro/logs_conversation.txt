@@ -1,0 +1,76 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 7
+        
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 7
+        
+
+        [Resultados] Empresa Ed: 
+        preço 7.0 com lucro 3500
+        
+
+        [Resultados] Empresa Gill: 
+        preço 7.0 com lucro 3500
+        
+
+========= Round 2 =========
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 6.5
+        
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 6.5
+        
+
+        [Resultados] Empresa Ed: 
+        preço 6.5 com lucro 3375
+        
+
+        [Resultados] Empresa Gill: 
+        preço 6.5 com lucro 3375
+        
+
+========= Round 3 =========
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 6.0
+        
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 6.0
+        
+
+        [Resultados] Empresa Gill: 
+        preço 6.0 com lucro 3200
+        
+
+        [Resultados] Empresa Ed: 
+        preço 6.0 com lucro 3200
+        
+
+========= Round 4 =========
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 5.5
+        
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 5.5
+        
+
+        [Resultados] Empresa Ed: 
+        preço 5.5 com lucro 2975
+        
+
+        [Resultados] Empresa Gill: 
+        preço 5.5 com lucro 2975
+        
+

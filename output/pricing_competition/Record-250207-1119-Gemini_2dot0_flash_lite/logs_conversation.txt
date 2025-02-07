@@ -1,0 +1,184 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 10
+        
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 10
+        
+
+        [Resultados] Empresa Gill: 
+        preço 10.0 com lucro 3200
+        
+
+        [Resultados] Empresa Ed: 
+        preço 10.0 com lucro 3200
+        
+
+========= Round 2 =========
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 11
+        
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 11
+        
+
+        [Resultados] Empresa Ed: 
+        preço 11.0 com lucro 2700
+        
+
+        [Resultados] Empresa Gill: 
+        preço 11.0 com lucro 2700
+        
+
+========= Round 3 =========
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 12
+        
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 12
+        
+
+        [Resultados] Empresa Gill: 
+        preço 12.0 com lucro 2000
+        
+
+        [Resultados] Empresa Ed: 
+        preço 12.0 com lucro 2000
+        
+
+========= Round 4 =========
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 13
+        
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 13
+        
+
+        [Resultados] Empresa Ed: 
+        preço 13.0 com lucro 1100
+        
+
+        [Resultados] Empresa Gill: 
+        preço 13.0 com lucro 1100
+        
+
+========= Round 5 =========
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 10
+        
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 14
+        
+
+        [Resultados] Empresa Gill: 
+        preço 10.0 com lucro 6400
+        
+
+        [Resultados] Empresa Ed: 
+        preço 14.0 com lucro -4800
+        
+
+========= Round 6 =========
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 11
+        
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 11
+        
+
+        [Resultados] Empresa Gill: 
+        preço 11.0 com lucro 2700
+        
+
+        [Resultados] Empresa Ed: 
+        preço 11.0 com lucro 2700
+        
+
+========= Round 7 =========
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 12
+        
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 10
+        
+
+        [Resultados] Empresa Ed: 
+        preço 12.0 com lucro 0
+        
+
+        [Resultados] Empresa Gill: 
+        preço 10.0 com lucro 4800
+        
+
+========= Round 8 =========
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 10
+        
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 11
+        
+
+        [Resultados] Empresa Gill: 
+        preço 10.0 com lucro 4000
+        
+
+        [Resultados] Empresa Ed: 
+        preço 11.0 com lucro 1800
+        
+
+========= Round 9 =========
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 11
+        
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 10
+        
+
+        [Resultados] Empresa Ed: 
+        preço 11.0 com lucro 1800
+        
+
+        [Resultados] Empresa Gill: 
+        preço 10.0 com lucro 4000
+        
+
+========= Round 10 =========
+
+        [Fase 2] Empresa Gill: 
+        Firm Gill: 10
+        
+
+        [Fase 2] Empresa Ed: 
+        Firm Ed: 11
+        
+
+        [Resultados] Empresa Gill: 
+        preço 10.0 com lucro 4000
+        
+
+        [Resultados] Empresa Ed: 
+        preço 11.0 com lucro 1800
+        
+

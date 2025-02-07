@@ -1,0 +1,129 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+[Phase 2] Firm Ed: Firm Ed: 7
+[Phase 2] Firm Gill: Firm Gill: 10
+[Results] Firm Ed: price 7.0 with profit 5000
+[Results] Firm Gill: price 10.0 with profit 800
+
+========= Round 2 =========
+[Phase 2] Firm Ed: Firm Ed: 6
+[Phase 2] Firm Gill: Firm Gill: 11
+[Results] Firm Ed: price 6.0 with profit 5200
+[Results] Firm Gill: price 11.0 with profit -1800
+
+========= Round 3 =========
+[Phase 2] Firm Ed: Firm Ed: 6
+[Phase 2] Firm Gill: Firm Gill: 9
+[Results] Firm Ed: price 6.0 with profit 4400
+[Results] Firm Gill: price 9.0 with profit 1400
+
+========= Round 4 =========
+[Phase 2] Firm Ed: Firm Ed: 5
+[Phase 2] Firm Gill: Firm Gill: 8
+[Results] Firm Ed: price 5.0 with profit 3600
+[Results] Firm Gill: price 8.0 with profit 1800
+
+========= Round 5 =========
+[Phase 2] Firm Ed: Firm Ed: 6
+[Phase 2] Firm Gill: Firm Gill: 7
+[Results] Firm Ed: price 6.0 with profit 3600
+[Results] Firm Gill: price 7.0 with profit 3000
+
+========= Round 6 =========
+[Phase 2] Firm Ed: Firm Ed: 6
+[Phase 2] Firm Gill: Firm Gill: 7
+[Results] Firm Ed: price 6.0 with profit 3600
+[Results] Firm Gill: price 7.0 with profit 3000
+
+========= Round 7 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 6
+[Results] Firm Gill: price 7.0 with profit 3000
+[Results] Firm Ed: price 6.0 with profit 3600
+
+========= Round 8 =========
+[Phase 2] Firm Ed: Firm Ed: 6
+[Phase 2] Firm Gill: Firm Gill: 7
+[Results] Firm Ed: price 6.0 with profit 3600
+[Results] Firm Gill: price 7.0 with profit 3000
+
+========= Round 9 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 6
+
+To determine the optimal price for Ed in Round #9, we observe the historical data provided:
+
+- When Ed priced at 6.0, the demand was steady at 900 units, resulting in a profit of 3600 (from Round #5 onwards).
+- The competitor priced at 7.0 in the last four rounds, which did not significantly affect Ed's demand or profit.
+- Given the stable demand and profit at the price of 6.0, there is no indication that lowering the price further would increase demand enough to outweigh the lower profit per unit. Conversely, raising the price might decrease demand too much, risking a drop in total profit.
+
+Therefore, maintaining the price at 6.0 seems to be the optimal strategy to maximize profit based on the available data.
+[Results] Firm Gill: price 7.0 with profit 3000
+[Results] Firm Ed: price 6.0 with profit 3600
+
+========= Round 10 =========
+[Phase 2] Firm Ed: Firm Ed: 5
+[Phase 2] Firm Gill: Firm Gill: 7
+
+**Justification:**
+Based on the historical data, we can observe that setting the price at 7 consistently results in a high demand and maximizes profit for Firm Gill. The demand remains stable and high at 600 units, yielding a profit of 3000 per round when the price is set at 7. The competitor's price has remained at 6, which suggests that the market responds well to a price point slightly above that, but not so high as to significantly drop the demand. Therefore, maintaining the price at 7 is the optimal strategy for maximizing profit in this round.
+[Results] Firm Ed: price 5.0 with profit 3300
+[Results] Firm Gill: price 7.0 with profit 2500
+
+========= Round 11 =========
+[Phase 2] Firm Ed: Firm Ed: 5.5
+[Phase 2] Firm Gill: Firm Gill: 7
+[Results] Firm Ed: price 5.5 with profit 3500
+[Results] Firm Gill: price 7.0 with profit 2750
+
+========= Round 12 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 6
+[Results] Firm Gill: price 7.0 with profit 3000
+[Results] Firm Ed: price 6.0 with profit 3600
+
+========= Round 13 =========
+[Phase 2] Firm Ed: Firm Ed: 5.5
+[Phase 2] Firm Gill: Firm Gill: 7
+[Results] Firm Ed: price 5.5 with profit 3500
+[Results] Firm Gill: price 7.0 with profit 2750
+
+========= Round 14 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 6
+[Results] Firm Gill: price 7.0 with profit 3000
+[Results] Firm Ed: price 6.0 with profit 3600
+
+========= Round 15 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 6
+[Results] Firm Gill: price 7.0 with profit 3000
+[Results] Firm Ed: price 6.0 with profit 3600
+
+========= Round 16 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 5
+[Results] Firm Gill: price 7.0 with profit 2500
+[Results] Firm Ed: price 5.0 with profit 3300
+
+========= Round 17 =========
+[Phase 2] Firm Ed: Firm Ed: 5
+[Phase 2] Firm Gill: Firm Gill: 7
+[Results] Firm Ed: price 5.0 with profit 3300
+[Results] Firm Gill: price 7.0 with profit 2500
+
+========= Round 18 =========
+[Phase 2] Firm Ed: Firm Ed: 5
+[Phase 2] Firm Gill: Firm Gill: 7
+[Results] Firm Ed: price 5.0 with profit 3300
+[Results] Firm Gill: price 7.0 with profit 2500
+
+========= Round 19 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 5.5
+[Results] Firm Gill: price 7.0 with profit 2750
+[Results] Firm Ed: price 5.5 with profit 3500
+

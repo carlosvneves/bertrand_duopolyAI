@@ -1,0 +1,22 @@
+[project]
+name = "bertrand-duopolyai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.8"
+dependencies = [
+    "langchain-community>=0.3.16",
+    "langchain-google-genai>=2.0.9",
+    "langchain-groq>=0.2.4",
+    "langchain-mistralai>=0.2.6",
+    "langchain-ollama>=0.2.3",
+    "langchain-openai>=0.3.3",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.2",
+    "openai>=1.61.1",
+    "plotly>=6.0.0",
+    "pytest>=8.3.4",
+    "python-dotenv>=1.0.1",
+    "scipy>=1.15.1",
+    "streamlit>=1.42.0",
+]
