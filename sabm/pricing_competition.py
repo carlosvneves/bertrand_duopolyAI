@@ -44,12 +44,10 @@ plt.ion()
 # BackendType.OnlineMistral
 
 
-
-#model_backend="OnlineMaritacaAI"
-#model_ver = "MaritacaAI" # LLM here, e.g., "sabia-3"
-model_backend = "OnlineGoogle"
-model_ver = "Gemini_2dot0_flash_lite"
-
+# model defaults
+model_backend="OnlineMaritacaAI"
+model_ver = "Sabia3_small" # LLM here, e.g., "sabia-3"
+# model_ver = "MaritacaAI"
 
 # API Keys
 my_apikey1 = ""
@@ -88,14 +86,19 @@ firm_persona_1 = '1' # Firm 1 persona (0: None, 1: Active, 2: Aggressive)
 firm_persona_2 = '1' # Firm 2 persona (0: None, 1: Active, 2: Aggressive)
 
 # Prompt
-Data = Data_br
+prompt_language = "en"
+
+if prompt_language != "en":
+    Data = Data_br_enh
+else:   
+    Data = Data_en
 
 prompts = Data.prompts
 persona_prompts = Data.persona
 log_format = Data.log_format
 
 def round_function(x: float):
-    return round(x, 2)
+    return round(x, 3)
 
 class Market:
     def __init__(self, firms, rounds = 1000, n_communications = 3):
@@ -194,7 +197,8 @@ class Market:
                             context += prompts["Load_Conversation_Phase_1"].format(conversations = conversation)
                         #print(context)
                         
-                        response = firm.communicate(context)
+                        # response = firm.communicate(context)
+                        response = firm.generate_response(context)
                         conversation += log_format["Phase_1_Conversation_Format"].format(firm_name = firm.firm_name, responses = response)
                 
                 # Logs
@@ -218,7 +222,8 @@ class Market:
                         context_game_description = prompts["game_description"].format(firm_name = firm.firm_name, firm_name_2 = self.firm_name(firm.id % len(self.firms) + 1), firm_cost = firm.cost, v1 = (1 / (1 - firm.d * firm.d)), v2 = (firm.a - firm.a * firm.d), v3 = firm.d, persona = persona_prompts["firm_persona_{}".format(firm_persona_1)])
                         context = context_game_description + firm.context["context_prev_consideration"] + firm.context["context_phase_1"] + context_strategy + prompts["Reflection_on_Strategy"]
                     print(context)
-                    response = firm.communicate(context)
+                    #response = firm.communicate(context)
+                    response = firm.generate_response(context)
                     firm.strategy.append(f"Round #{round + 1}: ```{response}```\n")
                     print(firm.strategy[-1])
                 
@@ -344,7 +349,7 @@ def run_simulation(para_cost, para_a, para_d, para_beta, initial_price, load_dat
         n_communications = n_communications_noconversation
     
     # System Setup
-    output_path = f"output/pricing_competition/Record-{datetime.date.today().strftime('%y%m%d')}-{time.strftime('%H%M')}-{model_ver}"
+    output_path = f"output/pricing_competition/Record-{datetime.date.today().strftime('%y%m%d')}-{time.strftime('%H%M')}-{model_ver}-{prompt_language}"
     os.makedirs(output_path, exist_ok=True)
 
     # Theoretical Solution

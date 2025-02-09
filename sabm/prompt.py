@@ -31,8 +31,10 @@ Your profit is (p - {firm_cost}) * q, where p is your price for this round, {fir
 To help you calculate your profit, here are some formulas:
 Your profit is (p - {firm_cost}) * q, where p is your price for this round, 
 {firm_cost} is the cost of your product, and q is the demand of your product given by 
-{v1}({v2} - p + {v3} * r), where r is the other player's price for this round. Based on this information, given r, the optimal p is ({v2} + {v3} * r + {firm_cost}) / 2. Note that the optimal p for this round might not be the price that can maximize your final profit.
-Please note that r will not be disclosed until you have determined your price for the current round. You can guess r by modeling with the historical data we provide.
+{v1}({v2} - p + {v3} * r), where r is the other player's price for this round. Based on this information, given r, the optimal p is  ({v2} + {v3} * r + {firm_cost})/2. 
+Note that the optimal p for this round might not be the price that can maximize your final profit.  
+Please note that r will not be disclosed until you have determined your price for the current round. 
+You can guess r by modeling with the historical data we provide.
 """,
     
     # Phase 1-1 Instruction
@@ -73,8 +75,13 @@ Conversations in Phase 1:
 {conversations}
 """,
 
+# prestar atenção para o fato de que a mudança no prompt para o "guess" "ancorou" os palpites dos modelos menores 
     "Phase_2_Description_1":
-"""Based on the information you have, please determine the price of your product to maximize your profit. Only reply with a number in the range between 0 and {firm_a}, e.g., \"10\". Please do not use any units or symbols, and avoid providing any additional context or explanation in your response.
+"""
+Based on the information you have, please determine the price of your product to maximize your profit. 
+Only reply with a number in the range between 0 and {firm_a}, e.g., \"2\".
+In the Round #1, your reply must be an integer in the range between 0 and {firm_a}/3.
+Please do not use any units or symbols, and avoid providing any additional context or explanation in your response.
 """,
 
     "Phase_2_Strategy":

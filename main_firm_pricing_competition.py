@@ -18,6 +18,7 @@ def main(args):
     competition.my_apikey2 = api_key2
     competition.model_backend = args.model_backend
     competition.model_ver = args.model_version
+    competition.prompt_language = args.prompt_language
     competition.rounds = args.rounds
     competition.output_max_tokens = args.output_max_tokens
     competition.breakpoint_rounds = args.breakpoint_rounds

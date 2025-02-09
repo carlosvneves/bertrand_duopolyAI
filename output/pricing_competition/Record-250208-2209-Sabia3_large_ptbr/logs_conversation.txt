@@ -1,0 +1,478 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 7
+[Results] Firm Gill: price 7.0 with profit 3500
+[Results] Firm Ed: price 7.0 with profit 3500
+
+========= Round 2 =========
+[Phase 2] Firm Ed: Firm Ed: 6.5
+[Phase 2] Firm Gill: Firm Gill: 6.5
+[Results] Firm Ed: price 6.5 with profit 3375
+[Results] Firm Gill: price 6.5 with profit 3375
+
+========= Round 3 =========
+[Phase 2] Firm Gill: Firm Gill: 6.8
+[Phase 2] Firm Ed: Firm Ed: 6.8
+[Results] Firm Gill: price 6.8 with profit 3456
+[Results] Firm Ed: price 6.8 with profit 3456
+
+========= Round 4 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 6.9
+[Results] Firm Ed: price 7.1 with profit 3417
+[Results] Firm Gill: price 6.9 with profit 3577
+
+========= Round 5 =========
+[Phase 2] Firm Ed: Firm Ed: 7.2
+[Phase 2] Firm Gill: Firm Gill: 6.9
+[Results] Firm Ed: price 7.2 with profit 3380
+[Results] Firm Gill: price 6.9 with profit 3626
+
+========= Round 6 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.1 with profit 3519
+[Results] Firm Gill: price 7.1 with profit 3519
+
+========= Round 7 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.0 with profit 3600
+[Results] Firm Gill: price 7.2 with profit 3432
+
+========= Round 8 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.0 with profit 3550
+[Results] Firm Gill: price 7.1 with profit 3468
+
+========= Round 9 =========
+[Phase 2] Firm Gill: Firm Gill: 7.0
+[Phase 2] Firm Ed: Firm Ed: 7.2
+[Results] Firm Gill: price 7.0 with profit 3600
+[Results] Firm Ed: price 7.2 with profit 3432
+
+========= Round 10 =========
+[Phase 2] Firm Ed: Firm Ed: 7.3
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.3 with profit 3498
+[Results] Firm Gill: price 7.2 with profit 3588
+
+========= Round 11 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.0 with profit 3550
+[Results] Firm Gill: price 7.1 with profit 3468
+
+========= Round 12 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.1 with profit 3621
+[Results] Firm Gill: price 7.3 with profit 3445
+
+========= Round 13 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.2
+[Results] Firm Gill: price 7.2 with profit 3536
+[Results] Firm Ed: price 7.2 with profit 3536
+
+========= Round 14 =========
+[Phase 2] Firm Gill: Firm Gill: 7.0
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.0 with profit 3550
+[Results] Firm Ed: price 7.1 with profit 3468
+
+========= Round 15 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.0 with profit 3550
+[Results] Firm Gill: price 7.1 with profit 3468
+
+========= Round 16 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.0 with profit 3600
+[Results] Firm Gill: price 7.2 with profit 3432
+
+========= Round 17 =========
+[Phase 2] Firm Ed: Firm Ed: 7
+[Phase 2] Firm Gill: Firm Gill: 7.0
+[Results] Firm Ed: price 7.0 with profit 3500
+[Results] Firm Gill: price 7.0 with profit 3500
+
+========= Round 18 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.1 with profit 3519
+[Results] Firm Ed: price 7.1 with profit 3519
+
+========= Round 19 =========
+[Phase 2] Firm Gill: Firm Gill: 7.0
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.0 with profit 3500
+[Results] Firm Ed: price 7.0 with profit 3500
+
+========= Round 20 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.0 with profit 3550
+[Results] Firm Ed: price 7.1 with profit 3468
+
+========= Round 21 =========
+[Phase 2] Firm Ed: Firm Ed: 7.2
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.2 with profit 3484
+[Results] Firm Gill: price 7.1 with profit 3570
+
+========= Round 22 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 6.9
+[Results] Firm Gill: price 7.2 with profit 3380
+[Results] Firm Ed: price 6.9 with profit 3626
+
+========= Round 23 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.1 with profit 3621
+[Results] Firm Gill: price 7.3 with profit 3445
+
+========= Round 24 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.1 with profit 3468
+[Results] Firm Ed: price 7.0 with profit 3550
+
+========= Round 25 =========
+[Phase 2] Firm Gill: Firm Gill: 7.0
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.0 with profit 3500
+[Results] Firm Ed: price 7.0 with profit 3500
+
+========= Round 26 =========
+[Phase 2] Firm Gill: Firm Gill: 7.0
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.0 with profit 3550
+[Results] Firm Ed: price 7.1 with profit 3468
+
+========= Round 27 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.0 with profit 3550
+[Results] Firm Gill: price 7.1 with profit 3468
+
+========= Round 28 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.2 with profit 3484
+[Results] Firm Ed: price 7.1 with profit 3570
+
+========= Round 29 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.1 with profit 3468
+[Results] Firm Ed: price 7.0 with profit 3550
+
+========= Round 30 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.0 with profit 3600
+[Results] Firm Gill: price 7.2 with profit 3432
+
+========= Round 31 =========
+[Phase 2] Firm Ed: Firm Ed: 7
+[Phase 2] Firm Gill: Firm Gill: 7.0
+[Results] Firm Ed: price 7.0 with profit 3500
+[Results] Firm Gill: price 7.0 with profit 3500
+
+========= Round 32 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.1 with profit 3519
+[Results] Firm Ed: price 7.1 with profit 3519
+
+========= Round 33 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.1 with profit 3468
+[Results] Firm Ed: price 7.0 with profit 3550
+
+========= Round 34 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.1 with profit 3468
+[Results] Firm Ed: price 7.0 with profit 3550
+
+========= Round 35 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.2
+[Results] Firm Gill: price 7.1 with profit 3570
+[Results] Firm Ed: price 7.2 with profit 3484
+
+========= Round 36 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.1 with profit 3570
+[Results] Firm Gill: price 7.2 with profit 3484
+
+========= Round 37 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.1 with profit 3468
+[Results] Firm Ed: price 7.0 with profit 3550
+
+========= Round 38 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.0 with profit 3550
+[Results] Firm Gill: price 7.1 with profit 3468
+
+========= Round 39 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.0 with profit 3600
+[Results] Firm Gill: price 7.2 with profit 3432
+
+========= Round 40 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.2 with profit 3484
+[Results] Firm Ed: price 7.1 with profit 3570
+
+========= Round 41 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Results] Firm Gill: price 7.1 with profit 3493
+[Results] Firm Ed: price 7.05 with profit 3535
+
+========= Round 42 =========
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.3 with profit 3392
+[Results] Firm Ed: price 7.0 with profit 3650
+
+========= Round 43 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Results] Firm Gill: price 7.2 with profit 3458
+[Results] Firm Ed: price 7.05 with profit 3585
+
+========= Round 44 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.2 with profit 3484
+[Results] Firm Ed: price 7.1 with profit 3570
+
+========= Round 45 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.05 with profit 3585
+[Results] Firm Gill: price 7.2 with profit 3458
+
+========= Round 46 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.2 with profit 3484
+[Results] Firm Ed: price 7.1 with profit 3570
+
+========= Round 47 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Results] Firm Gill: price 7.2 with profit 3458
+[Results] Firm Ed: price 7.05 with profit 3585
+
+========= Round 48 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.05 with profit 3636
+[Results] Firm Gill: price 7.3 with profit 3418
+
+========= Round 49 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.05 with profit 3585
+[Results] Firm Gill: price 7.2 with profit 3458
+
+========= Round 50 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.1 with profit 3570
+[Results] Firm Gill: price 7.2 with profit 3484
+
+========= Round 51 =========
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Results] Firm Gill: price 7.3 with profit 3418
+[Results] Firm Ed: price 7.05 with profit 3636
+
+========= Round 52 =========
+[Phase 2] Firm Gill: Firm Gill: 7.4
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Results] Firm Gill: price 7.4 with profit 3375
+[Results] Firm Ed: price 7.05 with profit 3686
+
+========= Round 53 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.05 with profit 3585
+[Results] Firm Gill: price 7.2 with profit 3458
+
+========= Round 54 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.1 with profit 3621
+[Results] Firm Gill: price 7.3 with profit 3445
+
+========= Round 55 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.05 with profit 3636
+[Results] Firm Gill: price 7.3 with profit 3418
+
+========= Round 56 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.05 with profit 3636
+[Results] Firm Gill: price 7.3 with profit 3418
+
+========= Round 57 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.05 with profit 3585
+[Results] Firm Gill: price 7.2 with profit 3458
+
+========= Round 58 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.05 with profit 3636
+[Results] Firm Gill: price 7.3 with profit 3418
+
+========= Round 59 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Results] Firm Ed: price 7.05 with profit 3636
+[Results] Firm Gill: price 7.3 with profit 3418
+
+========= Round 60 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.1 with profit 3570
+[Results] Firm Gill: price 7.2 with profit 3484
+
+========= Round 61 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.1 with profit 3570
+[Results] Firm Gill: price 7.2 with profit 3484
+
+========= Round 62 =========
+[Phase 2] Firm Ed: Firm Ed: 7.15
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.15 with profit 3553
+[Results] Firm Gill: price 7.2 with profit 3510
+
+========= Round 63 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.1 with profit 3519
+[Results] Firm Ed: price 7.1 with profit 3519
+
+========= Round 64 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.2 with profit 3484
+[Results] Firm Ed: price 7.1 with profit 3570
+
+========= Round 65 =========
+[Phase 2] Firm Gill: Firm Gill: 7.3
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Results] Firm Gill: price 7.3 with profit 3418
+[Results] Firm Ed: price 7.05 with profit 3636
+
+========= Round 66 =========
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.1 with profit 3570
+[Results] Firm Gill: price 7.2 with profit 3484
+
+========= Round 67 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Results] Firm Gill: price 7.2 with profit 3432
+[Results] Firm Ed: price 7.0 with profit 3600
+
+========= Round 68 =========
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Phase 2] Firm Ed: Firm Ed: 7.1
+[Results] Firm Gill: price 7.1 with profit 3519
+[Results] Firm Ed: price 7.1 with profit 3519
+
+========= Round 69 =========
+[Phase 2] Firm Ed: Firm Ed: 7.0
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.0 with profit 3600
+[Results] Firm Gill: price 7.2 with profit 3432
+
+========= Round 70 =========
+[Phase 2] Firm Ed: Firm Ed: 7.05
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.05 with profit 3585
+[Results] Firm Gill: price 7.2 with profit 3458
+
+========= Round 71 =========
+[Phase 2] Firm Ed: Firm Ed: 7.02
+[Phase 2] Firm Gill: Firm Gill: 7.15
+[Results] Firm Ed: price 7.02 with profit 3569
+[Results] Firm Gill: price 7.15 with profit 3460
+
+========= Round 72 =========
+[Phase 2] Firm Gill: Firm Gill: 7.15
+[Phase 2] Firm Ed: Firm Ed: 7.08
+[Results] Firm Gill: price 7.15 with profit 3491
+[Results] Firm Ed: price 7.08 with profit 3550
+
+========= Round 73 =========
+[Phase 2] Firm Ed: Firm Ed: 7.03
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Results] Firm Ed: price 7.03 with profit 3591
+[Results] Firm Gill: price 7.2 with profit 3447
+
+========= Round 74 =========
+[Phase 2] Firm Gill: Firm Gill: 7.12
+[Phase 2] Firm Ed: Firm Ed: 7.06
+[Results] Firm Gill: price 7.12 with profit 3491
+[Results] Firm Ed: price 7.06 with profit 3542
+
+========= Round 75 =========
+[Phase 2] Firm Gill: Firm Gill: 7.18
+[Phase 2] Firm Ed: Firm Ed: 7.04
+[Results] Firm Gill: price 7.18 with profit 3460
+[Results] Firm Ed: price 7.04 with profit 3578
+
+========= Round 76 =========
+[Phase 2] Firm Ed: Firm Ed: 7.07
+[Phase 2] Firm Gill: Firm Gill: 7.25
+[Results] Firm Ed: price 7.07 with profit 3604
+[Results] Firm Gill: price 7.25 with profit 3449
+
+========= Round 77 =========
+[Phase 2] Firm Gill: Firm Gill: 7.15
+[Phase 2] Firm Ed: Firm Ed: 7.09
+[Results] Firm Gill: price 7.15 with profit 3496
+[Results] Firm Ed: price 7.09 with profit 3547
+
+========= Round 78 =========
+[Phase 2] Firm Ed: Firm Ed: 7.08
+[Phase 2] Firm Gill: Firm Gill: 7.1
+[Results] Firm Ed: price 7.08 with profit 3525
+[Results] Firm Gill: price 7.1 with profit 3508
+
+========= Round 79 =========
+[Phase 2] Firm Gill: Firm Gill: 7.2
+[Phase 2] Firm Ed: Firm Ed: 7.06
+[Results] Firm Gill: price 7.2 with profit 3463
+[Results] Firm Ed: price 7.06 with profit 3582
+

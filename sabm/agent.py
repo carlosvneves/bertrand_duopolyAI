@@ -24,7 +24,7 @@ class Firm(Agent):
     def __init__(self, id, cost, a, d, beta, temperature = 0.8, 
     api_key = "", 
     backend=BackendType.OnlineMaritacaAI,
-    model = ModelType.MaritacaAI, 
+    model = ModelType.Sabia3_small,
     max_tokens = 100,
     langchain=True,
     pt_br = False):

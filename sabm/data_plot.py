@@ -116,9 +116,9 @@ def plot_decisions(firms, ideal_solution):
         if ideal_profit_ub[0] != ideal_profit_ub[1]:
             plt.hlines(ideal_profit_ub[firm.id - 1], xmin=0, xmax=len(firm.price_history)-1, color=firm_color[firm.id], linestyles='dashed', label=f"Profit Under Price Under Collusion - Firm {firm.id}")
     
-    if ideal_profit_lb[0] == ideal_profit_lb[1]:
+    if ideal_profit_lb is not None and len(ideal_profit_lb) > 0 and ideal_profit_lb[0] == ideal_profit_lb[1]:
         plt.hlines(ideal_profit_lb[0], xmin=0, xmax=len(firm.price_history)-1, color='black', linestyles='dotted', label=f"Profit Under Bertrand Equilibrium Price")
-    if ideal_profit_ub[0] == ideal_profit_ub[1]:
+    if ideal_profit_ub is not None and len(ideal_profit_ub) > 0 and ideal_profit_ub[0] == ideal_profit_ub[1]:
         plt.hlines(ideal_profit_ub[0], xmin=0, xmax=len(firm.price_history)-1, color='black', linestyles='dashed', label=f"Profit Under Monopoly Price")
     
     plt.xlabel("Round")

@@ -1,0 +1,322 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm playing this game as Firm Gill, and I need to figure out the optimal price for my product to maximize profit. It's Round 1, so I don't have any previous data yet. Let me think through this step by step.
+
+First, I know that profit is calculated as (p - c) * q, where p is my price, c is the cost, and q is the demand. The demand depends on both my price and Ed's price. Since I don't have any information from previous rounds, I need to make an educated guess.
+
+I remember that in such games, the demand
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed, and this is the first round of the game. I need to figure out the optimal price to set for my product to maximize my profit. The profit is calculated as (p - c) * q, where p is my price, c is the cost, and q is the demand. 
+
+Since it's the first round, I don't have any historical data about what Gill, the other firm, has done before. So I need to make an educated guess based on typical game theory scenarios, especially in a duopoly situation. 
+
+In such games, especially when there's no prior information
+[Results] Firm Gill: price 2.0 with profit 0
+[Results] Firm Ed: price 2.0 with profit 0
+
+========= Round 2 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for my product in this game. I'm Firm Gill, and the other firm is Ed. The goal is to maximize my own profit, not necessarily to beat Ed. 
+
+In Round 1, both Gill and Ed set the price at 2.0. My demand was 1200.0, and my profit was 0.0. That makes sense because if both set the same price, the demand is split equally, but since the cost is also 2.0, profit per unit is zero. So, total profit is zero.
+
+Now, moving
+[Phase 2] Firm Ed: Firm Ed: Alright, so I'm trying to figure out the best price for my product in this game. I'm Firm Ed, and the other player is Firm Gill. We're in Round 2 now, and I need to decide my price based on the information from Round 1.
+
+In Round 1, both Ed and Gill set their prices at 2.0. My demand was 1200 units, and my profit was 0. That makes sense because if both of us have the same price, the demand is split equally, but since the cost (c) isn't mentioned, I'm guessing it's 2.
+[Results] Firm Gill: price 2.0 with profit 0
+[Results] Firm Ed: price 2.0 with profit 0
+
+========= Round 3 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Ed in Round 3 of this game. Let me start by understanding the information I have.
+
+From the previous two rounds, both Ed and Gill have been pricing their products at 2.0 each. In both rounds, Ed's demand was 1200.0, and the profit was 0.0. That seems a bit odd because if both are pricing at the same point, maybe they're making zero profit because the demands are split, or perhaps the cost is such that (p - c) is zero. Wait, the profit is (p -
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for Round 3 as Firm Gill. Let me start by looking at the information from the past two rounds.
+
+In Round 1, both Gill and Ed priced their products at 2.0. The demand for Gill was 1200.0, and the profit was 0.0. That makes sense because if both prices are the same, the demand is split, so maybe each gets half. But since the profit is (p - c) * q, and if c is the cost, which I don't know yet, but the profit was zero,
+[Results] Firm Ed: price 3.0 with profit 1100
+[Results] Firm Gill: price 3.0 with profit 1100
+
+========= Round 4 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Ed in Round 4 of this game. Let me start by understanding the problem.
+
+From the previous rounds, I can see that both Ed and Gill have been setting the same prices. In Round 1 and 2, both set the price at 2.0, and in Round 3, both went up to 3.0. The profits for Ed were zero in the first two rounds but jumped to 1100 in Round 3. That suggests that when both firms raise their prices together, Ed's profit increases.
+
+So, the demand for Ed
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for Firm Gill in Round #4. Let me start by looking at the past three rounds to see if I can spot any patterns or useful information.
+
+In Round 1, both Gill and Ed priced their products at 2.0. The demand for Gill was 1200.0, and the profit was 0.0. Hmm, that's interesting. Maybe the cost is higher than the price? Wait, no, profit is (p - c) * q. So if p is 2.0 and profit is 0, that would mean that
+[Results] Firm Ed: price 4.0 with profit 2000
+[Results] Firm Gill: price 4.0 with profit 2000
+
+========= Round 5 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for Round #5 as Firm Gill. Let me start by looking at the previous rounds to see if I can spot any patterns or understand how the demand and profits are affected by the prices set by both Gill and Ed.
+
+In Round 1, both firms set the price at 2.0. Gill's demand was 1200, profit was 0.0, and Ed's price was also 2.0. Hmm, zero profit? That might be because the cost is equal to the price, so (p - c) would be zero, making profit
+[Phase 2] Firm Ed: Firm Ed: Alright, so I'm trying to figure out the best price for Ed's product in Round 5. Let's see, I have the data from the past four rounds, so I should analyze that to make an informed decision.
+
+In Round 1, both Ed and Gill set the price at 2.0. The demand for Ed was 1200, and the profit was 0.0. Hmm, same in Round 2. So, no profit there because both were selling at the same price, maybe? Then in Round 3, both went up to 3.0. Ed's demand dropped to
+[Results] Firm Gill: price 5.0 with profit 2700
+[Results] Firm Ed: price 5.0 with profit 2700
+
+========= Round 6 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, let me try to figure out what price I should set for Round 6 as Firm Ed. So, from the previous rounds, I can see how the prices, demands, and profits have been changing for both Ed and Gill.
+
+Looking at Round 1 to 5, both firms started at a price of 2.0. The demand was 1200 for Ed and the same for Gill, I assume, since the profit was 0.0. Then in Round 2, both kept the same price, so same situation. 
+
+In Round 3, both raised the price to 3.0.
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out what price I should set for my product in Round #6. I'm Firm Gill, and the other firm is Ed. The goal is to maximize my profit, which is calculated as (p - c) * q. Here, p is my price, c is the cost, and q is the demand. 
+
+Looking at the past rounds, it seems like both firms have been matching each other's prices exactly. In Round 1, both set the price at 2.0, in Round 2 again both at 2.0, Round 3 at 3.
+[Results] Firm Ed: price 6.0 with profit 3200
+[Results] Firm Gill: price 6.0 with profit 3200
+
+========= Round 7 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Ed in Round 7 of this game. Let me start by understanding the problem. It's a two-player game where both firms, Ed and Gill, set prices each round, and their profits are determined based on the demand which is influenced by both prices. The goal is to maximize Ed's profit, not necessarily to beat Gill.
+
+Looking at the past six rounds, I see that in each round, both Ed and Gill have set the same price. For example, in Round 1, both set 2.0, in Round 2 again 2.
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm playing this game as Firm Gill, and I need to decide the price for Round #7. The goal is to maximize my profit. Let me think through this step by step.
+
+First, I'll look at the past data to see if there's a pattern or something I can learn from. The data from Rounds 1 to 6 is:
+
+Round 1: [2.0, 1200.0, 0.0, 2.0]
+Round 2: [2.0, 1200.0, 0.0, 2.0]
+Round
+[Results] Firm Ed: price 7.0 with profit 3500
+[Results] Firm Gill: price 7.0 with profit 3500
+
+========= Round 8 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Ed in Round 8 of this game. Let me start by looking at the past data to see if there's a pattern or something I can learn from.
+
+Looking at the previous rounds, from Round 1 to 7, both Ed and Gill have been setting the same price each round. In Round 1 and 2, both set the price at 2.0. Then in Round 3, they both went up to 3.0, and so on, increasing by 1 each round until Round 7 where they both set it to
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for my product in Round 8. I'm Firm Gill, and the other firm is Ed. The goal is to maximize my profit, not necessarily to beat Ed. 
+
+Looking at the past seven rounds, I see a pattern. Both Gill and Ed have been increasing their prices by $1 each round, starting from $2.0 in Round 1 up to $7.0 in Round 7. The demand for my product has been decreasing by 100 each round, from 1200 in Round 1 to 700 in Round 7. My profits
+[Results] Firm Ed: price 8.0 with profit 3600
+[Results] Firm Gill: price 8.0 with profit 3600
+
+========= Round 9 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for Firm Gill in Round 9. Let me start by looking at the past data to see if I can spot any patterns or trends that might help me decide.
+
+From Round 1 to Round 8, both Gill and Ed have been increasing their prices each round. In Round 1, both set the price at 2.0, and each subsequent round increased by 1.0. So in Round 2, it was 2.0 again, then 3.0, 4.0, and so on up to 8.0 in
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Ed's product in Round 9. Let's see, I have data from the past 8 rounds, so maybe I can find a pattern or a strategy that maximizes profit.
+
+Looking at the previous rounds, both Ed and Gill have been increasing their prices each round, and their prices have been the same every time. In Round 1 and 2, both set the price at 2.0. Then in Round 3, both went up to 3.0, and so on until Round 8 where both set it at 8.0
+[Results] Firm Gill: price 9.0 with profit 3500
+[Results] Firm Ed: price 9.0 with profit 3500
+
+========= Round 10 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the optimal price for Ed in Round #10 of this game. Let me start by understanding the problem and the data I have.
+
+First, the game is between two firms, Ed and Gill. Each round, both set a price, and the profit is calculated as (price - cost) * demand. The demand depends on both firms' prices. My goal is to maximize Ed's profit, not necessarily to beat Gill.
+
+Looking at the past 9 rounds, I can see the prices, demands, profits for Ed, and Gill's prices. Let me list them out to see if
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the optimal price for Round #10 in this game between Firm Gill (me) and Firm Ed. Let me start by looking at the data from the past nine rounds to see if I can spot any patterns or trends that might help me make a good decision.
+
+Looking at the data, I notice that both firms have been increasing their prices each round, starting from 2.0 and going up by 1.0 each time. So Round 1 was 2.0, Round 2 also 2.0, then Round 3 jumped to 3.0, and
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 11 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out what price I should set for Round #11 in this game between my firm, Gill, and the other firm, Ed. Let me see what information I have.
+
+Looking at the past 10 rounds, both firms have been increasing their prices each round, starting from 2.0 and going up to 10.0 in Round 10. The demand for my product has been decreasing as the price increases, which makes sense because higher prices usually lead to lower demand. My profit has been going up and then down after Round 8. So, I need to figure out the optimal
+[Phase 2] Firm Ed: Firm Ed: Alright, let me try to figure out what price I should set for Round #11 as Firm Ed. So, from the previous rounds, I can see that both Ed and Gill have been increasing their prices each round, starting from 2.0 and going up by 1.0 each time. It looks like both firms are matching each other's prices exactly every round.
+
+Looking at the data, in Round 1 through 2, both set the price at 2.0. Then in Round 3, they both went to 3.0, and so on, up to Round 10 where both set the
+[Results] Firm Gill: price 11.0 with profit 2700
+[Results] Firm Ed: price 11.0 with profit 2700
+
+========= Round 12 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, let's try to figure out what price Ed should set in Round 12 to maximize profit. I'm a bit new to this, so I'll take it step by step.
+
+First, I need to understand how the game works. It's a two-player game between Ed and Gill. Each round, both firms set a price, and their profits are calculated based on their prices and the demand. The demand for each firm's product depends on both their own price and the competitor's price.
+
+Looking at the past 11 rounds, it seems like both Ed and Gill have been setting the same price each round. From Round
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for my product in Round 12. I'm Firm Gill, and the other firm is Ed. From the past 11 rounds, I can see how both of our prices and profits have changed. Let me try to understand the pattern here.
+
+Looking at the data, from Round 1 to Round 11, both Gill and Ed have been increasing their prices by $1 each round. In Round 1, both set the price at $2.0, and each subsequent round, the price went up by a dollar. So Round 2 was $2.0
+[Results] Firm Ed: price 12.0 with profit 2000
+[Results] Firm Gill: price 12.0 with profit 2000
+
+========= Round 13 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out what price to set for Round #13 as Firm Gill. Let me see... I have data from the past 12 rounds, and I need to use that to decide my price to maximize profit.
+
+Looking at the past rounds, it seems like both Gill and Ed have been increasing their prices each round by 1. Starting from 2.0 in Round 1 up to 12.0 in Round 12. The demand has been decreasing by 100 each round, from 1200 down to 200. So, it's a straightforward pattern where each round, the price
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed, and I need to figure out the best price to set for Round 13. Let me look at the past 12 rounds to see if I can find a pattern or a strategy that will maximize my profit.
+
+Looking at the data, from Round 1 to Round 12, both Ed and Gill have been increasing their prices each round by $1. So Round 1: $2.0, Round 2: $2.0, then Round 3: $3.0, and so on up to Round 12 where both set $12.0. The demands have
+[Results] Firm Gill: price 13.0 with profit 1100
+[Results] Firm Ed: price 13.0 with profit 1100
+
+========= Round 14 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I need to figure out the optimal price for Ed in Round 14. Let me start by looking at the data from the previous 13 rounds to see if I can spot any patterns or trends.
+
+From Round 1 to Round 13, both Ed and Gill have been increasing their prices each round by $1 each time. So in Round 1, both set the price at $2.00, then $3.00 in Round 3, and so on up to $13.00 in Round 13. It seems like both firms are following a similar strategy, perhaps trying to test the market or
+[Phase 2] Firm Gill: Firm Gill: Okay, let's try to figure out what price I should set for Round #14 as Firm Gill. I need to maximize my profit, which is calculated as (price - cost) multiplied by demand. The demand depends on both my price and Ed's price in this round. 
+
+Looking at the past 13 rounds, I notice a pattern. Both firms have been increasing their prices each round, starting from 2.0 and going up by 1.0 each time. So in Round 1, both were at 2.0, Round 2 also 2.0, then Round 3 both at
+[Results] Firm Ed: price 14.0 with profit 0
+[Results] Firm Gill: price 14.0 with profit 0
+
+========= Round 15 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out what price I should set for Round #15 as Firm Gill. Let me start by looking at the data from the past 14 rounds to see if I can spot any patterns or trends that might help me make a good decision.
+
+First, I notice that both Gill and Ed have been increasing their prices each round. From Round 1 to Round 14, both started at 2.0 and went up by 1.0 each round, ending at 14.0 in Round 14. The demands have been decreasing as the prices went up, which makes sense because typically,
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Ed's product in Round 15. Let me start by looking at the data from the past 14 rounds to understand the pattern and how the demand and profits have been changing.
+
+From Round 1 to Round 14, both Ed and Gill have been increasing their prices by $1 each round. In Round 1, both priced at $2.0, and each subsequent round, both increased their price by $1. So in Round 14, both were at $14.0. 
+
+Looking at the demand, it seems that as the price increases,
+[Results] Firm Gill: price 15.0 with profit -1300
+[Results] Firm Ed: price 15.0 with profit -1300
+
+========= Round 16 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Firm Ed in Round 16. Let's see, I have data from the past 15 rounds, so I can analyze that to make an informed decision.
+
+First, I notice that both Ed and Gill have been setting the same prices each round, starting from 2.0 and increasing by 1 each time until Round 15 where both set 15.0. But wait, in Round 15, Ed's demand was -100.0 and profit was -1300.0. That's bad because negative demand and profit don't make sense—maybe
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm Firm Gill, and I need to figure out the best price to set in Round 16 to maximize my profit. Let me look at the data from the past 15 rounds to understand what's going on.
+
+First, I notice that both Gill and Ed have been increasing their prices each round. From Round 1 to 15, both started at 2.0 and went up by 1 each round, reaching 15.0 in Round 15. But wait, in Round 15, Gill's demand was -100.0, and profit was -1300.0. That's bad
+[Results] Firm Ed: price 16.0 with profit -2800
+[Results] Firm Gill: price 16.0 with profit -2800
+
+========= Round 17 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for Round #17 as Firm Gill. Let me look at the past 16 rounds to understand what's been happening.
+
+From Round 1 to 16, both Gill and Ed have been increasing their prices each round by 1.0 each time. So in Round 1, both set the price at 2.0, then 3.0 in Round 3, and so on up to 16.0 in Round 16. 
+
+Looking at the demand, it seems to be decreasing as the price increases. For example, in Round 1,
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Ed's product in Round 17. Let me start by looking at the past rounds to see if I can spot any patterns or trends.
+
+From Round 1 to Round 16, both Ed and Gill have been increasing their prices by 1 each round, starting at 2.0 and going up to 16.0. The demand for Ed's product has been decreasing as the price increases, which makes sense because higher prices usually lead to lower demand, assuming the products are similar and the market is competitive.
+
+Looking at the profits, Ed's profit was zero
+[Results] Firm Gill: price 17.0 with profit -4500
+[Results] Firm Ed: price 17.0 with profit -4500
+
+========= Round 18 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the optimal price for Ed in Round 18 of this game. Let me start by understanding the problem and the data I have.
+
+From the previous 17 rounds, I can see that both Ed and Gill have been setting their prices in a pattern. It looks like each round, both firms have been increasing their prices by 1 unit each time. Starting from Round 1 at 2.0, then 3.0, 4.0, and so on up to Round 17 where both are at 17.0. 
+
+Looking at the demand and profits, I
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out what price I should set for Round #18 as Firm Gill. Let me start by looking at the data from the past 17 rounds to see if I can spot any patterns or trends that might help me make a good decision.
+
+Looking at the data, I notice that both Gill and Ed have been increasing their prices each round, starting from 2.0 and going up to 17.0 in Round 17. But as the prices went up, the demand for Gill's product went down. In Round 1, demand was 1200, but by Round 17,
+[Results] Firm Ed: price 18.0 with profit -6400
+[Results] Firm Gill: price 18.0 with profit -6400
+
+========= Round 19 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for Round #19 as Firm Gill. Let me start by looking at the past 18 rounds to understand the pattern and how the demand and profits have been affected by the prices set by both Gill and Ed.
+
+From Round 1 to Round 18, both firms have been increasing their prices each round by $1.00. So in Round 1, both were at $2.00, then Round 2 same, and so on until Round 18 where both are at $18.00. The demand has been decreasing as the prices go up, which makes
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Round #19 as Firm Ed. Let me start by looking at the past 18 rounds to see if I can spot any patterns or trends that might help me make a good decision.
+
+First, I notice that in the early rounds, both Ed and Gill were setting the same prices, and the demand was decreasing as the price increased. For example, in Round 1, both set the price at 2.0, and the demand was 1200. Then in Round 3, both went up to 3.0, and demand dropped to 110
+[Results] Firm Gill: price 19.0 with profit -8500
+[Results] Firm Ed: price 19.0 with profit -8500
+
+========= Round 20 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the optimal price for Round #20 as Firm Gill. Let me start by looking at the past 19 rounds to see if I can spot any patterns or trends that might help me make a good decision.
+
+First, I notice that in the early rounds, both Gill and Ed were pricing their products at the same level. From Round 1 to Round 2, both set the price at 2.0. Then in Round 3, both went up to 3.0, and this pattern continued up to Round 14 where both set the price at 14.0.
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm playing this game as Firm Ed, and I need to figure out the best price to set in Round 20 to maximize my profit. Let me start by looking at the data from the previous 19 rounds to see if I can spot any patterns or figure out what's going on.
+
+First, I notice that both Ed and Gill have been setting the same prices every round until Round 14. From Round 1 to 13, both firms increased their prices by 1 each round, starting at 2.0 and going up to 13.0. The demands were decreasing by 100 each time
+[Results] Firm Gill: price 20.0 with profit -10800
+[Results] Firm Ed: price 20.0 with profit -10800
+
+========= Round 21 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed, and I need to figure out the best price to set for Round 21 to maximize my profit. Let me try to analyze the data I have from the previous 20 rounds.
+
+First, looking at the historical data, I see that both Ed and Gill have been increasing their prices each round, starting from 2.0 in Round 1 up to 20.0 in Round 20. The demand has been decreasing as the price increases, which makes sense because higher prices typically lead to lower demand. 
+
+In the early rounds, when the price was around 2.0 to
+[Phase 2] Firm Gill: Firm Gill: Alright, I need to determine the optimal price for my product in Round #21 as Firm Gill. Let me start by analyzing the data provided.
+
+First, I notice that from Rounds 1 to 20, both my firm and Ed's firm were setting the same prices each round. The price started at $2.0 in Round 1 and increased by $1.0 each subsequent round. So, Round 1: $2.0, Round 2: $2.0 again, Round 3: $3.0, and so on until Round 20, which was $20.0.
+
+Looking at
+[Results] Firm Ed: price 21.0 with profit -13300
+[Results] Firm Gill: price 21.0 with profit -13300
+
+========= Round 22 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, let me try to figure out the best price for Round #22 as Firm Gill. So, looking at the past data, both Gill and Ed have been increasing their prices by $1 each round, starting from $2 in Round 2 up to $20 in Round 20. Then in Round 21, both went to $21. But the demands and profits have been negative since Round 14, which seems problematic because that means we're selling a negative number of products, leading to negative profits. That can't be good for business.
+
+I remember that the profit is calculated as (p - c) * q
+[Phase 2] Firm Ed: Firm Ed: Okay, so I need to figure out the best price for Firm Ed in Round #22. Let's start by looking at the data from the previous rounds to see if there's a pattern or a way to predict what's going on.
+
+From Round #2 to Round #21, both Ed and Gill have been increasing their prices by 1 each round. So in Round 2, both set the price at 2.0, then 3.0 in Round 3, and so on up to 21.0 in Round 21. This consistent increase seems like a clear pattern, but I need to check if
+[Results] Firm Gill: price 22.0 with profit -16000
+[Results] Firm Ed: price 22.0 with profit -16000
+
+========= Round 23 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for my product in Round #23 as Firm Gill. Let me start by looking at the data provided to understand the situation better.
+
+From the past rounds, I notice that both my firm and Ed's firm have been setting the same prices each round, starting from $3.0 up to $22.0 in Round #22. Each round, we increased the price by $1.0. However, starting from Round #14, when the price was $14.0, my demand dropped to 0.0, and my profit became 0.0.
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed, and I need to figure out the optimal price for Round #23 in this game. My goal is to maximize my profit, which is calculated as (p - c) * q, where p is my price, c is the cost, and q is the demand. 
+
+Looking at the past 20 rounds, I can see a clear pattern. Both Ed and Gill started at a price of 2.0 in Round 1, and each round they increased their price by 1.0. So, Round 2 would have been 3.0, Round 3 was
+[Results] Firm Gill: price 23.0 with profit -18900
+[Results] Firm Ed: price 23.0 with profit -18900
+
+========= Round 24 =========
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for my product in Round 24 as Firm Gill. Let me start by looking at the data provided to understand the situation better.
+
+From the previous rounds, I see that both Firm Gill and Ed have been setting the same prices each round. Starting from Round 4, both set the price at $4.0, then each round increased by $1.0. So Round 5 was $5.0, Round 6 at $6.0, and so on up to Round 23 at $23.0. 
+
+Looking at the demand and profits,
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed trying to figure out the best price for Round 24. Let me look at the past data to understand what's been happening. 
+
+From Rounds 4 to 23, both Ed and Gill have been increasing their prices each round by 1 unit. Starting at 4.0 in Round 4, going up to 23.0 in Round 23. The demand and profits have been following a specific pattern too. 
+
+In Round 4, when both set the price at 4.0, Ed's demand was 1000, profit 2000. Then as the price
+[Results] Firm Gill: price 24.0 with profit -22000
+[Results] Firm Ed: price 24.0 with profit -22000
+
+========= Round 25 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed, and I'm trying to figure out the best price to set for Round #25 in this game against Firm Gill. My goal is to maximize my profit, which is calculated as (p - c) * q, where p is my price, c is the cost, and q is the demand. 
+
+Looking at the data from the past rounds, I notice a clear pattern. Both Ed and Gill have been increasing their prices by 1 each round, starting from Round 1. The initial rounds showed positive demands and profits, but as the prices kept going up, the demand started to drop
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for my product in Round #25 as Firm Gill. Let me start by looking at the data provided to understand the situation better.
+
+From the given rounds, I see that both Firm Gill and Ed have been setting the same prices each round, increasing by $1 each time starting from Round 5 up to Round 24. In each of these rounds, both firms set the same price, which means they're matching each other's prices exactly.
+
+Looking at the profits, I notice that as the price increases beyond a certain point, the demand starts to drop significantly, leading to
+[Results] Firm Ed: price 25.0 with profit -25300
+[Results] Firm Gill: price 25.0 with profit -25300
+
+========= Round 26 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed, and I need to figure out the optimal price for Round 26 to maximize my profit. Let me start by looking at the past rounds to see if I can find any patterns or insights.
+
+From Round 6 to Round 25, both Ed and Gill have been increasing their prices each round by 1.0. Starting at 6.0 in Round 6 and going up to 25.0 in Round 25. The demands have been decreasing as the prices go up, which makes sense because higher prices usually lead to lower demand. However, the demand started to go negative from
+[Phase 2] Firm Gill: Firm Gill: Alright, I'm trying to figure out the best price for my product in Round #26 as Firm Gill. Let me start by looking at the data provided to understand the situation better.
+
+From the past rounds, I see that both my firm and Ed's firm have been setting the same prices each round, starting from $2.0 and increasing by $1.0 each round up to Round 25 at $25.0. But wait, the data provided only goes up to Round 25, which is [25.0, -1100.0, -25300.0, 25.0]. So,
+[Results] Firm Ed: price 26.0 with profit -28800
+[Results] Firm Gill: price 26.0 with profit -28800
+
+========= Round 27 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm trying to figure out the best price for Firm Ed in Round 27. Let me start by looking at the data from the past rounds to see if I can spot any patterns or trends.
+
+From Round 7 to Round 26, both Ed and Gill have been increasing their prices by 1 each round. It seems like both firms are following a similar strategy, maybe trying to maximize their profits by adjusting prices in a coordinated way. But wait, looking closer, starting from Round 14, Ed's demand turns negative, and so does the profit. That's not good. So, when the price went
+[Phase 2] Firm Gill: Firm Gill: Okay, so I'm trying to figure out the best price for my product in Round #27 as Firm Gill. Let me start by looking at the data provided to understand the situation better.
+
+From Rounds #7 to #26, I can see that both my firm (Gill) and the other firm (Ed) have been setting the same prices each round. Starting from Round 7 at $7.0, each round increased by $1.0, going up to Round 26 at $26.0. However, as the price increased beyond a certain point, the demand started to drop significantly, even becoming negative,
+[Results] Firm Ed: price 27.0 with profit -32500
+[Results] Firm Gill: price 27.0 with profit -32500
+
+========= Round 28 =========
+[Phase 2] Firm Ed: Firm Ed: Okay, so I'm Firm Ed, and I need to figure out the best price to set for Round 28 to maximize my profit. Let me start by looking at the data from the previous rounds to understand the pattern and how the demand and profits have been behaving.
+
+From Round 8 to Round 27, both Ed and Gill have been increasing their prices each round by 1.0. The price starts at 8.0 in Round 8 and goes up to 27.0 in Round 27. That's a steady increase each round. 
+
+Looking at the demand, it's clear that as the price increases
+[Phase 2] Firm Gill: Firm Gill: Okay, so I need to figure out the best price for my product in Round #28 as Firm Gill. Let me start by looking at the data provided to understand the situation better.
+
+From the past rounds, I can see that both my firm and Ed's firm have been setting the same prices each round up until Round 27. In Round 8, both set the price at 8.0, and then each subsequent round, we increased the price by 1.0 each time. So Round 9 was 9.0, Round 10 at 10.0, and so on up to Round 27
+[Results] Firm Ed: price 28.0 with profit -36400
+[Results] Firm Gill: price 28.0 with profit -36400
+

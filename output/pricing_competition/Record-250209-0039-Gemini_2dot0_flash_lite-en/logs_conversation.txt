@@ -1,0 +1,314 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+[Phase 2] Firm Gill: Firm Gill: 4
+[Phase 2] Firm Ed: Firm Ed: 4
+[Results] Firm Gill: price 4.0 with profit 2000
+[Results] Firm Ed: price 4.0 with profit 2000
+
+========= Round 2 =========
+[Phase 2] Firm Ed: Firm Ed: 5
+[Phase 2] Firm Gill: Firm Gill: 5
+[Results] Firm Ed: price 5.0 with profit 2700
+[Results] Firm Gill: price 5.0 with profit 2700
+
+========= Round 3 =========
+[Phase 2] Firm Gill: Firm Gill: 6
+[Phase 2] Firm Ed: Firm Ed: 6
+[Results] Firm Gill: price 6.0 with profit 3200
+[Results] Firm Ed: price 6.0 with profit 3200
+
+========= Round 4 =========
+[Phase 2] Firm Gill: Firm Gill: 7
+[Phase 2] Firm Ed: Firm Ed: 7
+[Results] Firm Gill: price 7.0 with profit 3500
+[Results] Firm Ed: price 7.0 with profit 3500
+
+========= Round 5 =========
+[Phase 2] Firm Ed: Firm Ed: 8
+[Phase 2] Firm Gill: Firm Gill: 8
+[Results] Firm Ed: price 8.0 with profit 3600
+[Results] Firm Gill: price 8.0 with profit 3600
+
+========= Round 6 =========
+[Phase 2] Firm Gill: Firm Gill: 9
+[Phase 2] Firm Ed: Firm Ed: 9
+[Results] Firm Gill: price 9.0 with profit 3500
+[Results] Firm Ed: price 9.0 with profit 3500
+
+========= Round 7 =========
+[Phase 2] Firm Ed: Firm Ed: 10
+[Phase 2] Firm Gill: Firm Gill: 10
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 8 =========
+[Phase 2] Firm Gill: Firm Gill: 11
+[Phase 2] Firm Ed: Firm Ed: 11
+[Results] Firm Gill: price 11.0 with profit 2700
+[Results] Firm Ed: price 11.0 with profit 2700
+
+========= Round 9 =========
+[Phase 2] Firm Gill: Firm Gill: 12
+[Phase 2] Firm Ed: Firm Ed: 12
+[Results] Firm Gill: price 12.0 with profit 2000
+[Results] Firm Ed: price 12.0 with profit 2000
+
+========= Round 10 =========
+[Phase 2] Firm Gill: Firm Gill: 13
+[Phase 2] Firm Ed: Firm Ed: 10
+[Results] Firm Gill: price 13.0 with profit -2200
+[Results] Firm Ed: price 10.0 with profit 5600
+
+========= Round 11 =========
+[Phase 2] Firm Ed: Firm Ed: 11
+[Phase 2] Firm Gill: Firm Gill: 10
+[Results] Firm Ed: price 11.0 with profit 1800
+[Results] Firm Gill: price 10.0 with profit 4000
+
+========= Round 12 =========
+[Phase 2] Firm Ed: Firm Ed: 12
+[Phase 2] Firm Gill: Firm Gill: 11
+[Results] Firm Ed: price 12.0 with profit 1000
+[Results] Firm Gill: price 11.0 with profit 3600
+
+========= Round 13 =========
+[Phase 2] Firm Gill: Firm Gill: 10
+[Phase 2] Firm Ed: Firm Ed: 10
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 14 =========
+[Phase 2] Firm Gill: Firm Gill: 10
+[Phase 2] Firm Ed: Firm Ed: 11
+[Results] Firm Gill: price 10.0 with profit 4000
+[Results] Firm Ed: price 11.0 with profit 1800
+
+========= Round 15 =========
+[Phase 2] Firm Gill: Firm Gill: 10
+[Phase 2] Firm Ed: Firm Ed: 10
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 16 =========
+[Phase 2] Firm Ed: Firm Ed: 11
+[Phase 2] Firm Gill: Firm Gill: 11
+[Results] Firm Ed: price 11.0 with profit 2700
+[Results] Firm Gill: price 11.0 with profit 2700
+
+========= Round 17 =========
+[Phase 2] Firm Ed: Firm Ed: 10
+[Phase 2] Firm Gill: Firm Gill: 10
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 18 =========
+[Phase 2] Firm Ed: Firm Ed: 10
+[Phase 2] Firm Gill: Firm Gill: 11
+[Results] Firm Ed: price 10.0 with profit 4000
+[Results] Firm Gill: price 11.0 with profit 1800
+
+========= Round 19 =========
+[Phase 2] Firm Gill: Firm Gill: 10
+[Phase 2] Firm Ed: Firm Ed: 10
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 20 =========
+[Phase 2] Firm Ed: Firm Ed: 11
+[Phase 2] Firm Gill: Firm Gill: 11
+[Results] Firm Ed: price 11.0 with profit 2700
+[Results] Firm Gill: price 11.0 with profit 2700
+
+========= Round 21 =========
+[Phase 2] Firm Gill: Firm Gill: 10
+[Phase 2] Firm Ed: Firm Ed: 10
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 22 =========
+[Phase 2] Firm Gill: Firm Gill: Round #22s: [10.0, 
+400.p, 
+3200.0, 
+10.0]
+Round #21: [10.0, 
+400.0, 
+ 
+3200.
+0, 
+10.0, 
+11.0, 
+10.0, 
+10.0, 
+10.
+0,  
+10.0, 10.0, 
+10.0, 
+10
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Results] Firm Gill: price 22.0 with profit -40000
+[Results] Firm Ed: price 10.0 with profit 12800
+
+========= Round 23 =========
+[Phase 2] Firm Gill: Firm Gill: 10
+[Phase 2] Firm Ed: Firm Ed: 10
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 24 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: Based on the data, I will set my price to **10.0**
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 25 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 10.0
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 26 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 10.0
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 27 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 8
+[Results] Firm Ed: price 10.0 with profit 1600
+[Results] Firm Gill: price 8.0 with profit 4800
+
+========= Round 28 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 8.0
+[Results] Firm Ed: price 10.0 with profit 1600
+[Results] Firm Gill: price 8.0 with profit 4800
+
+========= Round 29 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 8.0
+[Results] Firm Ed: price 10.0 with profit 1600
+[Results] Firm Gill: price 8.0 with profit 4800
+
+========= Round 30 =========
+[Phase 2] Firm Ed: Firm Ed: Here's my analysis:
+*   **Cost:**
+    *   I will use the data from the previous rounds to estimate costs.
+    *   My profit in Round 10, the profit was 5600, and the price was 10. That means the item's cost is, based on the profit formula, 10.0 (Price) - (c) = profit / demand, where c is the cost.  So, 
+        c = 10.0 - 5600 / 700.0 = 10.0
+[Phase 2] Firm Gill: Firm Gill: 8.0
+[Results] Firm Ed: price 10.0 with profit 1600
+[Results] Firm Gill: price 8.0 with profit 4800
+
+========= Round 31 =========
+[Phase 2] Firm Gill: Firm Gill: 10.0
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 32 =========
+[Phase 2] Firm Gill: Firm Gill: 8.0
+[Phase 2] Firm Ed: Firm Ed: Okay, I have analyzed the data provided and determined the best price for Round 
+32:
+
+*   **Cost:** I can determine the cost of the product. Based on the profit formula (p - c) * q, and the data provided, I can estimate the cost.
+
+*   **Gill's Strategy:** From the data, it appears that the other player has a cost of 0.
+
+*   **Demand:** I need to determine the demand function based on the data.
+
+*   **Round 31 Analysis:**
+
+    *   I will set the price to 10.0
+[Results] Firm Gill: price 8.0 with profit 18000
+[Results] Firm Ed: price 32.0 with profit -126000
+
+========= Round 33 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: Round shift.
+[3. 
+How many can choose the same prices to be the same, or
+come up with a specific strategy to generate the most profit?
+```
+ data_
+
+ round_
+```s
+ 
+```python
+data_
+```
+
+```python
+
+from round_shift import 
+reproduce_
+```
+
+```python
+from math_
+```
+```python
+import numpy_
+```
+
+```python
+import os.re
+```python
+
+import_
+```
+
+```python
+import_os_
+```
+```python
+import re6
+[Results] Firm Ed: price 10.0 with profit -2400
+[Results] Firm Gill: price 3.0 with profit 1800
+
+========= Round 34 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 10.0
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 35 =========
+[Phase 2] Firm Gill: Firm Gill: 10
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 36 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 8.0
+[Results] Firm Ed: price 10.0 with profit 1600
+[Results] Firm Gill: price 8.0 with profit 4800
+
+========= Round 37 =========
+[Phase 2] Firm Gill: Firm Gill: 10.0
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Results] Firm Gill: price 10.0 with profit 3200
+[Results] Firm Ed: price 10.0 with profit 3200
+
+========= Round 38 =========
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Phase 2] Firm Gill: Firm Gill: 10.0
+[Results] Firm Ed: price 10.0 with profit 3200
+[Results] Firm Gill: price 10.0 with profit 3200
+
+========= Round 39 =========
+[Phase 2] Firm Gill: Firm Gill: The cost of your product is 
+(p - c) * q, where p is your price for this round, c is the cost of your product, and q is the demand, is influenced by you and the other player's price.
+The cost of your product is 
+(p - c) * q, where p is your price for this round, c is the cost of your product, and q is the demand of the product.
+The cost of your product is the price minus the cost.
+
+Your profit is the (p - c) * q, where p is your price, c is
+[Phase 2] Firm Ed: Firm Ed: 10.0
+[Results] Firm Gill: price 2.0 with profit 0
+[Results] Firm Ed: price 10.0 with profit -3200
+
