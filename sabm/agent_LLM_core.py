@@ -1,111 +1,32 @@
 import time
 from groq import RateLimitError
-import openai
-import os 
-from dotenv import load_dotenv
+import os
 from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
 from langchain_mistralai import ChatMistralAI
 from langchain_ollama import ChatOllama
 from langchain_google_genai import ChatGoogleGenerativeAI
 from sabm.utils import BackendType,ModelType
+#from langchain_core.rate_limiters import InMemoryRateLimiter
 
-
-from langchain_core.rate_limiters import InMemoryRateLimiter
-
-load_dotenv()
-# openai.api_key = ""
-
-client = openai.OpenAI(
-
-    api_key = os.environ["MARITACA_API_KEY"],
-    base_url = "https://chat.maritaca.ai/api",
-
-)
-
-rate_limiter = InMemoryRateLimiter(
-    requests_per_second=0.1,  # <-- Super slow! We can only make a request once every 10 seconds!!
-    check_every_n_seconds=0.1,  # Wake up every 100 ms to check whether allowed to make a request,
-    max_bucket_size=10,  # Controls the maximum burst size.
-)        
+# rate_limiter = InMemoryRateLimiter(
+#     requests_per_second=0.1,  # <-- Super slow! We can only make a request once every 10 seconds!!
+#     check_every_n_seconds=0.1,  # Wake up every 100 ms to check whether allowed to make a request,
+#     max_bucket_size=10,  # Controls the maximum burst size.
+# )
 class Agent:
-    # def __init__(self, temperature=0.8, model='gpt-4', max_tokens=100):
-    def __init__(self, temperature=0.8, 
+
+    def __init__(self, temperature=0.8,
     backend=BackendType.OnlineMaritacaAI,
     model=ModelType.Sabia3_small,
-    max_tokens=100, max_retries = 3):
+    max_tokens=128, max_retries = 3):
         self.temperature = temperature
         self.backend = backend
         self.model = model 
         self.max_tokens = max_tokens
         self.max_retries = max_retries
-        print(self.model)
-        
-    
-    def communicate(self, context):
-        prompt = context + "\n\n"
-        message = ""
 
-        if self.model.value == ModelType.Sabia3_small.value:
-            retries = 3
-            backoff_factor = 2
-            current_retry = 0
 
-            while current_retry < retries:
-                try:
-                    # response = openai.ChatCompletion.create(
-                    #     model=self.model,
-                    #     messages=[
-                    #         {"role": "user", "content": prompt},
-                    #         {"role": "user", "content": ""}
-                    #     ],
-                    #     max_tokens=self.max_tokens,
-                    #     n=1,
-                    #     temperature=self.temperature,
-                    #     top_p=1
-                    # )
-                    response = client.chat.completions.create(
-                        model=self.model.value,
-                        messages=[
-                            {"role": "user", "content": prompt},
-                            {"role": "user", "content": ""}
-                        ],
-                        max_tokens=self.max_tokens,
-                        n=1,
-                        temperature=self.temperature,
-                        top_p=1
-                    )
-                    message = response.choices[0].message.content
-                    print(message)
-                    if message is not None:
-                        message = message.strip()
-                    return message
-                except openai.RateLimitError as e:
-                    if current_retry < retries - 1:
-                        wait_time = backoff_factor ** current_retry
-                        print(f"RateLimitError: Retrying in {wait_time} seconds...")
-                        time.sleep(wait_time)
-                        current_retry += 1
-                    else:
-                        print(f"Error {e}")
-                        raise e
-                except openai.APIError as e:
-                    if current_retry < retries - 1:
-                        wait_time = backoff_factor ** current_retry
-                        print(f"RateLimitError: Retrying in {wait_time} seconds...")
-                        time.sleep(wait_time)
-                        current_retry += 1
-                    else:
-                        raise e
-                except Exception as e:
-                    if current_retry < retries - 1:
-                        wait_time = backoff_factor ** current_retry
-                        print(f"RateLimitError: Retrying in {wait_time} seconds...")
-                        time.sleep(wait_time)
-                        current_retry += 1
-                    else:
-                        print(f"Error {e}")
-                        raise e
     def generate_response(self, context):
         backend_option = self.backend
         model_option = self.model
@@ -135,7 +56,6 @@ class Agent:
                         model=str(ModelType[model_option.name].value),
                         temperature=self.temperature,
                         num_thread=8,
-
                         top_p=1
                     )
                 elif backend_option == BackendType.OnlineGroq:
@@ -196,6 +116,3 @@ class Agent:
                     raise e
     
 
-if __name__ == "__main__":
-    a = Agent(backend=BackendType.OnlineMistral, model=ModelType.Mistral_small)
-    print(a.generate_response("Olá"))

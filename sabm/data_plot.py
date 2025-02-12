@@ -127,5 +127,5 @@ def plot_decisions(firms, ideal_solution):
     plt.grid(True, linestyle='--', linewidth=0.5, color='gray', alpha=0.7)
     plt.suptitle("Firms' Decisions During the Simulation")
     
-    plt.pause(0.1)
+    #plt.pause(0.1)
     #plt.show(block=False)

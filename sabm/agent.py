@@ -25,11 +25,15 @@ class Firm(Agent):
     api_key = "", 
     backend=BackendType.OnlineMaritacaAI,
     model = ModelType.Sabia3_small,
-    max_tokens = 100,
-    langchain=True,
-    pt_br = False):
-        self.langchain = langchain
+    max_tokens = 128):
+        #self.langchain = langchain
+        if backend == BackendType.OnlineMaritacaAI:
+            pt_br = True
+        else:
+            pt_br = False
+
         self.pt_br = pt_br
+
         # API Setup
         Agent.__init__(self, temperature=temperature,
                        backend=backend, 
@@ -76,10 +80,9 @@ class Firm(Agent):
         return self.demand
 
     def choose_price(self, context):
-        if self.langchain:
-            response = self.generate_response(context)
-        else:
-            response = self.communicate(context)
+
+        response = self.generate_response(context)
+
         try:
             price_str = safe_search(r"[-+]?\d*\.\d+|\d+", response)
                 

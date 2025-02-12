@@ -149,6 +149,6 @@ log_format = {
 }
 
 name_dict = {
-    1: "Ed",
-    2: "Gill",
+    1: "João",
+    2: "Maria",
 }

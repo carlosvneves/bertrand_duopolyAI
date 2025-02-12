@@ -21,38 +21,17 @@ import sabm.data_output as data_output
 
 from sabm.utils import ModelType, BackendType
 
+
 load_dotenv()
 plt.ion()
-
-# Model Setup
-# ModelType.MaritacaAI
-# ModelType.Deepseek_r1_1dot5b_Distill_Qwen
-# ModelType.Deepseek_r1_8b_Distill_Llama
-# ModelType.Mistral_7b
-# ModelType.Deepseek_r1_70b_Distill_Llama
-# ModelType.Llama_3dot3_70b_versatile
-# ModelType.Gemini_2dot0_flash_lite
-# ModelType.Gemini_2dot0_pro
-# ModelType.Mistral_small
-# ModelType.Mistral_large
-
-# Backend Setup
-# BackendType.LocalOllama
-# BackendType.OnlineGroq
-# BackendType.OnlineMaritacaAI
-# BackendType.OnlineGoogle
-# BackendType.OnlineMistral
-
 
 # model defaults
 model_backend="OnlineMaritacaAI"
 model_ver = "Sabia3_small" # LLM here, e.g., "sabia-3"
-# model_ver = "MaritacaAI"
 
 # API Keys
 my_apikey1 = ""
 my_apikey2 = ""
-
 
 if model_backend == BackendType.OnlineGroq.value:
     my_apikey1 = os.getenv("GROQ_API_KEY") # GROQ API key here for firm 1
@@ -86,13 +65,9 @@ firm_persona_1 = '1' # Firm 1 persona (0: None, 1: Active, 2: Aggressive)
 firm_persona_2 = '1' # Firm 2 persona (0: None, 1: Active, 2: Aggressive)
 
 # Prompt
-prompt_language = "en"
-
-if prompt_language != "en":
-    Data = Data_br_enh
-else:   
-    Data = Data_en
-
+prompt_language = "pt_br"
+Data = Data_br_enh
+# Model
 prompts = Data.prompts
 persona_prompts = Data.persona
 log_format = Data.log_format
@@ -105,8 +80,10 @@ class Market:
         self.firms = firms
         self.rounds = rounds
         self.n_communications = n_communications
+
     
     def firm_name(self, ids):
+
         return Data.name_dict.get(ids)
 
     def simulate(self, ideal_solution, initial_price = [0, 0], breakpoint_rounds = 0, output_path = "", current_round = 0):
@@ -322,8 +299,15 @@ class Market:
         plt.close()
         return logs_conversation, log_price_data, log_price_data_plot, log_strategy, log_settings
 
-def run_simulation(para_cost, para_a, para_d, para_beta, initial_price, load_data='', strategy = True, has_conversation = False):
-    
+def run_simulation(para_cost, para_a, para_d, para_beta, initial_price, load_data='', strategy = True, has_conversation = False, output_path = ''):
+    # Select the appropriate Data module based on prompt_language
+    if prompt_language == "pt_br":
+        Data = Data_br_enh
+    elif prompt_language == "en":
+        Data = Data_en
+    else:
+        raise ValueError("Invalid prompt_language. Please choose 'pt_br' or 'en'.")
+
     backend = BackendType[model_backend]
     model = ModelType[model_ver]
     
@@ -331,11 +315,11 @@ def run_simulation(para_cost, para_a, para_d, para_beta, initial_price, load_dat
     firm1 = GPT.Firm(id=1, cost=para_cost[0], a=para_a, d=para_d, beta = para_beta, 
                      temperature=0.7, api_key=my_apikey1, backend=backend, 
                      model=model, max_tokens = output_max_tokens,
-                     pt_br=True)
+                     )
     firm2 = GPT.Firm(id=2, cost=para_cost[1], a=para_a, d=para_d, beta = para_beta, 
                      temperature=0.7, api_key=my_apikey2, backend=backend, 
                      model=model, max_tokens = output_max_tokens,
-                     pt_br=True)
+                     )
     firms = [firm1, firm2]
     
     # Environment Setup
@@ -349,8 +333,8 @@ def run_simulation(para_cost, para_a, para_d, para_beta, initial_price, load_dat
         n_communications = n_communications_noconversation
     
     # System Setup
-    output_path = f"output/pricing_competition/Record-{datetime.date.today().strftime('%y%m%d')}-{time.strftime('%H%M')}-{model_ver}-{prompt_language}"
-    os.makedirs(output_path, exist_ok=True)
+    #output_path = f"output/pricing_competition/Record-{datetime.date.today().strftime('%y%m%d')}-{time.strftime('%H%M')}-{model_ver}-{prompt_language}"
+    #os.makedirs(output_path, exist_ok=True)
 
     # Theoretical Solution
     ideal_price_lb = [0, 0]
@@ -374,15 +358,15 @@ def run_simulation(para_cost, para_a, para_d, para_beta, initial_price, load_dat
 
         row1 = df[df['FirmID'] == 1]
         row2 = df[df['FirmID'] == 2]
-        firm1.price_history = list(row1['Price'].values)
-        firm1.demand_history = list(row1['Quantity'].values)
-        firm1.profit_history = list(row1['Profit'].values)
-        firm1.rival_price_history = list(row2['Price'].values)
+        firm1.price_history = row1['Price'].to_list()
+        firm1.demand_history = row1['Quantity'].to_list()
+        firm1.profit_history = row1['Profit'].to_list()
+        firm1.rival_price_history = row2['Price'].to_list()
 
-        firm2.price_history = list(row2['Price'].values)
-        firm2.demand_history = list(row2['Quantity'].values)
-        firm2.profit_history = list(row2['Profit'].values)
-        firm2.rival_price_history = list(row1['Price'].values)
+        firm2.price_history = row2['Price'].to_list()
+        firm2.demand_history = row2['Quantity'].to_list()
+        firm2.profit_history = row2['Profit'].to_list()
+        firm2.rival_price_history = row1['Price'].to_list()
 
         firm1.price = firm1.price_history[-1]
         firm1.profit = firm1.profit_history[-1]
@@ -413,8 +397,9 @@ def run_simulation(para_cost, para_a, para_d, para_beta, initial_price, load_dat
     df_strategy = pd.DataFrame(log_strategy, columns = ['Data'])
     data_output.data_output(df_conversation, df_decision, df_decision_plot, df_strategy, log_settings, output_path)
 
+
     # Data Analysis
     if program_run_dict.get("DA"):
 
-        # Visualization
+       # Visualization
         data_plot.data_visulization(df_conversation, df_decision_plot, ideal_solution, output_path)
