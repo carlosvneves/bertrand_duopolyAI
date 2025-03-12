@@ -1,0 +1,166 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+========= Round 2 =========
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+========= Round 3 =========
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+========= Round 4 =========
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+========= Round 5 =========
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+========= Round 6 =========
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+========= Round 7 =========
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+========= Round 8 =========
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+
+========= Round 9 =========
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 8
+        
+
+        [Phase 2] Firm João: 
+        Firm João: 7
+        
+
+        [Results] Firm Maria: 
+        price 8.0 with profit 3000
+        
+
+        [Results] Firm João: 
+        price 7.0 with profit 4000
+        
+

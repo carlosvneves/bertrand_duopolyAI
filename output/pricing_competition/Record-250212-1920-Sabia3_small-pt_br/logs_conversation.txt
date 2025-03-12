@@ -1,0 +1,22 @@
+Initial Settings:
+Firm 1: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+Firm 2: cost = 2, a = 14, d = 0.00333333333333, temp = 0.7
+
+========= Round 1 =========
+
+        [Phase 2] Firm João: 
+        Firm João: 10
+        
+
+        [Phase 2] Firm Maria: 
+        Firm Maria: 10
+        
+
+        [Results] Firm João: 
+        price 10.0 with profit 3200
+        
+
+        [Results] Firm Maria: 
+        price 10.0 with profit 3200
+        
+
